@@ -60,7 +60,7 @@ public class Test1 {
     }
 
     //結果出力
-    public static void printResult(List<Integer> inputList){
+    private static void printResult(List<Integer> inputList){
         for (int i = 0; i < inputList.size(); i++) {
             System.out.println("Case " + (i+1) + ": " + inputList.get(i));
             System.out.println("-----");
