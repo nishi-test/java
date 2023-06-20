@@ -292,3 +292,15 @@ Lombok とは Lombok は、アノテーションによってセッターやゲ�
 
 ### [DDD関係](https://qiita.com/tbpgr/items/3ef00dfad76bfe077902#:~:text=Given%2FWhen%2FThen%20%E3%81%AF%20BDD,%E3%83%A1%E3%83%AA%E3%83%83%E3%83%88%E3%81%A8%E8%80%83%E3%81%88%E3%82%89%E3%82%8C%E3%81%BE%E3%81%99%E3%80%82)  
 ### [httpステータスコード](https://www.itmanage.co.jp/column/http-www-request-response-statuscode/)  
+
+build.gradle
+// https://mvnrepository.com/artifact/org.apache.commons/commons-jcs-core
+implementation 'org.apache.commons:commons-jcs-core:2.2.1'
+
+comparable？Javaには文字や数字を比較するためのものがあるのでそれを実装すれば入力が数字でなくともＯＫ
+
+given-when-then:
+
+・再生リスト一覧画面
+・優先度設定（項目なのか画面なのか）
+・数字以外を許可しないように設定
